@@ -3,7 +3,7 @@ for (var i = 0; i < noOfbuttons; i++) {
 
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
 
-    var buttonN = this.innerHTHML;
+    var buttonN = this.innerHTML;
     console.log(buttonN);
     makeSound(buttonN);
  
